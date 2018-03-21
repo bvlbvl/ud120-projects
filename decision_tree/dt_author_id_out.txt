@@ -1,0 +1,13 @@
+Reloaded modules: email_preprocess
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+Fit time:  67.9729998112
+Predict time:  0.0309998989105
+accuracy: 0.9778156996587031
+num of features 3785
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+Fit time:  6.24699997902
+Predict time:  0.00399994850159
+accuracy: 0.9670079635949943
+num of features 379

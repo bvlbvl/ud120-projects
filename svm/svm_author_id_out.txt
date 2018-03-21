@@ -1,0 +1,42 @@
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+---linear classifier, full training set ---
+('training time: ', 183.983, ' s')
+('prediction time: ', 18.98, ' s')
+0.9840728100113766
+---linear classifier, 1% training set ---
+('training time: ', 0.094, ' s')
+('prediction time: ', 1.125, ' s')
+0.8845278725824801
+---rbf classifier, 1% training set ---
+('training time: ', 0.11, ' s')
+('prediction time: ', 1.208, ' s')
+0.6160409556313993
+---rbf classifier, 1% training set, C=10 ---
+('training time: ', 0.11, ' s')
+('prediction time: ', 1.176, ' s')
+0.6160409556313993
+---rbf classifier, 1% training set, C=100 ---
+('training time: ', 0.11, ' s')
+('prediction time: ', 1.156, ' s')
+0.6160409556313993
+---rbf classifier, 1% training set, C=1000 ---
+('training time: ', 0.109, ' s')
+('prediction time: ', 1.11, ' s')
+0.8213879408418657
+---rbf classifier, 1% training set, C=10000 ---
+('training time: ', 0.109, ' s')
+('prediction time: ', 0.937, ' s')
+0.8924914675767918
+---rbf classifier, full training set, C=100 ---
+preproceccing training set
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+---rbf classifier, full training set, C=100h00 ---
+preproceccing training set
+no. of Chris training emails: 7936
+no. of Sara training emails: 7884
+('training time: ', 116.614, ' s')
+('prediction time: ', 11.25, ' s')
+0.9908987485779295
+Counter({0: 881, 1: 877})
