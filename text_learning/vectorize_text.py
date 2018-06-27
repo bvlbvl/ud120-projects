@@ -87,8 +87,9 @@ vector = vectorizer.get_feature_names()
 
 # How many unique words are there in your Tfldf?
 print len(vector)
+#%%
 # What is word number 34597 in your TfIdf?
-vector[34597]
+print vector[34597]
 
 
 

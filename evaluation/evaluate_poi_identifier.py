@@ -29,3 +29,25 @@ labels, features = targetFeatureSplit(data)
 ### your code goes here 
 
 
+from sklearn.tree import DecisionTreeClassifier
+
+
+dtc1 = DecisionTreeClassifier()
+from sklearn.model_selection import train_test_split
+labels_train, labels_test, features_train, features_test = \
+    train_test_split(labels, features, test_size = 0.3, random_state = 42)
+dtc1.fit(features_train, labels_train)
+score1 = dtc1.score(features_test, labels_test)
+print (score1)
+
+print ("number of labels in the test set = ", len(labels_test))
+from numpy import unique
+print ("number of unique labels in the test set = ", len(unique(labels_test)))
+print ("number of ones labels in the test set = ", sum(i==1.0 for i in labels_test))
+labels_predicted = dtc1.predict(features_test)
+print ("number of predicted ones labels in the test set = ", sum(i==1.0 for i in labels_predicted))
+
+from sklearn.metrics import precision_score, recall_score
+
+print ("Precision score = ", precision_score(labels_test, labels_predicted))
+print ("Recall score = ", recall_score(labels_test, labels_predicted))
